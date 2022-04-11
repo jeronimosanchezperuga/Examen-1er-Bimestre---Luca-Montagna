@@ -6,7 +6,7 @@ public class Ejercicio1 : MonoBehaviour
 {
 
     public int MontoPesos;
-    private int ConversiónDolares = 220;
+    private int ConversiónDolares = 220; //tilde en el nombre de variable
     private int ConversiónEuros = 230;
     private int ConversiónReales = 24;
     public string Moneda;
@@ -22,13 +22,13 @@ public class Ejercicio1 : MonoBehaviour
             Debug.Log("La cantidad de dinero ingresada es menor al monto minimo posible.");
         }
 
-        else if (MontoPesos >= 1000)
+        else if (MontoPesos >= 1000)// condicion innecesaria
         {
             
 
             if (Moneda == "E" || Moneda == "e")
             {
-                Debug.Log(" la conversión te queda en " + MontoPesos / ConversiónEuros + " Euros ");
+                Debug.Log(" la conversión te queda en " + MontoPesos / ConversiónEuros + " Euros "); //no respeta el mensaje de la consigna
             }
 
             else if (Moneda == "D" || Moneda == "d")
