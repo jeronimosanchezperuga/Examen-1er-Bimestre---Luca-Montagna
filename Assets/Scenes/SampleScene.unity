@@ -210,8 +210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 436d54e6b2c0beb4f91e5fb153070f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MontoPesos: 1000
-  Moneda: d
+  MontoPesos: 1500
+  Moneda: E
 --- !u!4 &259022464
 Transform:
   m_ObjectHideFlags: 0

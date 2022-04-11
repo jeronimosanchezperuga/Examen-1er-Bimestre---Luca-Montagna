@@ -39,7 +39,7 @@ public class Ejercicio1 : MonoBehaviour
 
             else if (Moneda == "R" || Moneda == "r")
             {
-                Debug.Log(" la conversión te queda en " + MontoPesos / ConversiónReales + " Reales ");
+                Debug.Log(" la conversión de " + MontoPesos + " pesos te queda en " + MontoPesos / ConversiónReales + " Reales ");
 
             }
 
